@@ -32,7 +32,16 @@ var myName='My Name';
  * (there are 6 different data types);
  */
 
+ var dataTypes=[canDrive,null,undefined,person.name,person.age,person];
+
+ console.log(dataTypes);
+
 /* Create a `dog` object
  * it should have a `bark` function that makes your dog bark!
  * It should also have a name attribute with the value of 'Spot'
  */
+
+ var dog={
+ 	name:'Spot',
+ 	bark:function(){console.log('bark')}
+ };
